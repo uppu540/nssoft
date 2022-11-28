@@ -462,7 +462,11 @@ header .dropdown-menu {
 }
 
 .main-header.sticky .custom-nav .nav-list li a.menu-links {
-    color: #050748
+    color: #050748;
+}
+
+.main-header.sticky .custom-nav .nav-list li a.menu-links.active {
+    color: #006bdf;
 }
 
 .main-header .mega-white-logo, .main-header.sticky .mega-white-logo, .nav-bg-b.main-header.sticky .mega-white-logo {
@@ -8768,23 +8772,30 @@ html body .title-hero p {
 }
 
 .active-dark footer .ftr-brand-pp .f-dark-logo {
-    display: none
+    display: none;
 }
 
 .active-dark footer .ftr-brand-pp .f-white-logo {
-    display: block
+    display: block;
 }
 
 footer .ftr-brand-pp .f-white-logo {
-    display: none
+    display: none;
 }
 
 footer .ftr-brand-pp .f-dark-logo {
-    display: block
+    display: block;
+    height: 100px;
+}
+
+footer .ftr-brand-pp .f-dark-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .mob-nav2 {
-    align-items: center
+    align-items: center;
 }
 
 #contactform .error-label .error {
